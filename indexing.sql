@@ -29,8 +29,16 @@ SELECT make_code, model_code, model_title, year FROM car_models WHERE make_code 
 SELECT * FROM car_models WHERE year BETWEEN 2010 AND 2015; --60.428
 SELECT * FROM car_models WHERE year = 2010; --30.717
 
-
-
-
-
-
+DROP TABLE IF EXISTS car_models;
+\i scripts/car_models.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
+\i scripts/car_model_data.sql
